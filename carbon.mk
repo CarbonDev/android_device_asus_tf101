@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 1280
+
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/carbon/config/common_tablet.mk)
 
