@@ -1,13 +1,13 @@
 [
   {
-    "remote":       "omnirom",
-    "repository":   "android_kernel_asus_tf101",
+    "remote":       "gh",
+    "repository":   "omnirom/android_kernel_asus_tf101",
     "target_path":  "kernel/asus/tf101",
     "revision":     "android-4.4"
   },
   {
-    "remote":       "omnirom",
-    "repository":   "android_device_generic_armv7-a",
+    "remote":       "gh",
+    "repository":   "omnirom/android_device_generic_armv7-a",
     "target_path":  "device/generic/armv7-a",
     "revision":     "android-4.4"
   }

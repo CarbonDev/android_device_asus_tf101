@@ -233,18 +233,18 @@
          The default is false. -->
     <bool name="config_lidControlsSleep">true</bool>
 
-<!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
+    <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">false</bool>
 
-<!--  Maximum number of supported users -->
+    <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">8</integer>
 
-<!-- Separate software navigation bar required on this device. -->
+    <!-- Separate software navigation bar required on this device. -->
     <bool name="config_showNavigationBar">true</bool>
 
-<!-- We now need to use a constant bool as reference
+    <!-- We now need to use a constant bool as reference
      for whether or not this is a hybrid ui device, i.e. grouper. -->
-<!--    <bool name="config_isHybridUiDevice">true</bool>
+<!-- <bool name="config_isHybridUiDevice">true</bool>
     <integer name="config_desiredWallpaperSizeMaxWidth">1504</integer>
     <integer name="config_desiredWallpaperSizeMaxHeight">1280</integer>
 -->
@@ -258,7 +258,7 @@
          alpha compositing functionality in hardware.  If set, the window
          manager will disable alpha trasformation in animations where not
          strictly needed. -->
-<!--    <bool name="config_sf_limitedAlpha">true</bool> -->
+<!-- <bool name="config_sf_limitedAlpha">true</bool> -->
     <bool name="config_hasRemovableLid">true</bool>
     <integer name="config_lidKeyboardAccessibility">1</integer>
     <integer name="config_lidNavigationAccessibility">1</integer>

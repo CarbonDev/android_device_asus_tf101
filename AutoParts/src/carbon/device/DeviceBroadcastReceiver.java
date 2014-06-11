@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.omnirom.settings.device;
+package com.carbon.device;
 
 import android.app.Notification;
 import android.app.NotificationManager;

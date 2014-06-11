@@ -206,8 +206,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/lib/omxplayer.so:system/lib/omxplayer.so \
     $(LOCAL_PATH)/prebuilt/lib/libdrm1.so:system/lib/libdrm1.so \
     $(LOCAL_PATH)/prebuilt/lib/libdrm1_jni.so:system/lib/libdrm1_jni.so
-
-#Bring in camera media effects
-$(call inherit-product-if-exists, frameworks/base/data/videos/VideoPackage2.mk)
-
-
